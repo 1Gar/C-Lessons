@@ -5,8 +5,14 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
+int a = -9;
+int b = -3;
+int max;
 
+if (a>b){ max = a;
+    
+}else{
+max = b;
+}
 
-
-// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Максимальное число " + max);
