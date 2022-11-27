@@ -3,4 +3,17 @@
 5 -> 2, 4
 8 -> 2, 4, 6, 8*/
 
-Console.WriteLine("Hello, World!");
+int num = 5;
+int i = 1;
+
+
+while (i <= num) {
+    
+    if(i%2==0){
+       Console.WriteLine(i);
+       i++;
+    }else{
+       i++;
+    } 
+}
+
