@@ -17,4 +17,6 @@
 >Напишите программу, которая задаёт массив из N элементов (из диапазона [0-14] ) и выводит на экран десятичное представление числа, записанного в СС по основанию 15
 
 * N: 3 [9, 4, 12] => 2097
->[КОД](https://github.com/1Gar/C-Lessons/blob/main/lesson_4/Task_29/Program.cs)
+>[ТОЧКА ВХОДА](https://github.com/1Gar/C-Lessons/blob/main/lesson_4/Task_29/Program.cs)   
+>[ТЕЛО ЗАДАЧИ](https://github.com/1Gar/C-Lessons/blob/main/lesson_4/Task_29/Lesson4.cs)   
+>[<span style="color:coral">__БИБЛИОТЕКА ФУНКЦИЙ 29 ЗАДАЧA__</span>](https://github.com/1Gar/C-Lessons/blob/main/lesson_4/Task_29/MyLibrary.cs)   
