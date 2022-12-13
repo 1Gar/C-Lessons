@@ -10,7 +10,7 @@
 * [3, 7, 23, 12] -> 19
 * [-4, -6, 89, 6] -> 0
 >[ТОЧКА ВХОДА](https://github.com/1Gar/C-Lessons/blob/main/lesson_5/Task_36/Program.cs)   
->[ТЕЛО ЗАДАЧИ](https://github.com/1Gar/C-Lessons/blob/main/lesson_5/Task_36/Lesson4.cs)   
+>[ТЕЛО ЗАДАЧИ](https://github.com/1Gar/C-Lessons/blob/main/lesson_5/Task_36/Lesson5.cs)   
 >[<span style="color:coral">__БИБЛИОТЕКА ФУНКЦИЙ 36 ЗАДАЧA__</span>](https://github.com/1Gar/C-Lessons/blob/main/lesson_5/Task_36/MyLibrary.cs)  
 ***
 ## Задание №38
@@ -18,5 +18,5 @@
 
 * [3 7 22 2 78] -> 76
 >[ТОЧКА ВХОДА](https://github.com/1Gar/C-Lessons/blob/main/lesson_5/Task_38/Program.cs)   
->[ТЕЛО ЗАДАЧИ](https://github.com/1Gar/C-Lessons/blob/main/lesson_5/Task_38/Lesson4.cs)   
+>[ТЕЛО ЗАДАЧИ](https://github.com/1Gar/C-Lessons/blob/main/lesson_5/Task_38/Lesson5.cs)   
 >[<span style="color:coral">__БИБЛИОТЕКА ФУНКЦИЙ 38 ЗАДАЧA__</span>](https://github.com/1Gar/C-Lessons/blob/main/lesson_5/Task_38/MyLibrary.cs)   
