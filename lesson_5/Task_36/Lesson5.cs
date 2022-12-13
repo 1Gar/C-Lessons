@@ -8,7 +8,4 @@ public class Lesson_5
         Console.WriteLine(PrintArray(arr));
         FindNum(arr);
     }
-
-
-
 }

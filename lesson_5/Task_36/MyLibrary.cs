@@ -1,6 +1,6 @@
 public class MyLibrary
 {
- // 1. Создать массива
+    // 1. Создать массив
     public static int[] CreateArray(int count)
     {
         return new int[count];
