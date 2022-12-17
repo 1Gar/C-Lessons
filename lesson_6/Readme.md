@@ -15,6 +15,6 @@ y = k2 * x + b2;
 * [3, 7, 23, 12] -> 19
 * [-4, -6, 89, 6] -> 0
 >[ТОЧКА ВХОДА](https://github.com/1Gar/C-Lessons/blob/main/lesson_6/Task_43/Program.cs)   
->[ТЕЛО ЗАДАЧИ](https://github.com/1Gar/C-Lessons/blob/main/lesson_6/Task_43/Lesson5.cs)   
+>[ТЕЛО ЗАДАЧИ](https://github.com/1Gar/C-Lessons/blob/main/lesson_6/Task_43/Lesson6.cs)   
 >[<span style="color:coral">__БИБЛИОТЕКА ФУНКЦИЙ 43 ЗАДАЧA__</span>](https://github.com/1Gar/C-Lessons/blob/main/lesson_6/Task_43/MyLibrary.cs)  
 
