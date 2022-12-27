@@ -18,15 +18,52 @@ public class MyLibrary
 
     //3. Функция заполнения массива числами
 
+    // public static void FillArray(int[,,] numbers)
+    // {
+    //     for (int i = 0; i < numbers.GetLength(0); i++)
+    //     {
+    //         for (int j = 0; j < numbers.GetLength(1); j++)
+    //         {
+    //             for (int d = 0; d < numbers.GetLength(2); d++)
+    //             {
+    //                 numbers[i, j, d] = Convert.ToInt32(new Random().Next(10, 99));
+    //             }
+    //         }
+    //     }
+    // }
+
+    //4. Функция заполнения массива числами и проверки на дубли
     public static void FillArray(int[,,] numbers)
     {
-        for (int i = 0; i < numbers.GetLength(0); i++)
+        int[] temp = new int[numbers.GetLength(0) * numbers.GetLength(1) * numbers.GetLength(2)];
+        int number;
+        for (int i = 0; i < temp.GetLength(0); i++)
         {
-            for (int j = 0; j < numbers.GetLength(1); j++)
+            temp[i] = new Random().Next(10, 99);
+            number = temp[i];
+            if (i >= 1)
             {
-                for (int d = 0; d < numbers.GetLength(2); d++)
+                for (int j = 0; j < i; j++)
                 {
-                    numbers[i, j, d] = Convert.ToInt32(new Random().Next(10, 99));
+                    while (temp[i] == temp[j])
+                    {
+                        temp[i] = new Random().Next(10, 99);
+                        j = 0;
+                        number = temp[i];
+                    }
+                    number = temp[i];
+                }
+            }
+        }
+        int count = 0;
+        for (int x = 0; x < numbers.GetLength(0); x++)
+        {
+            for (int y = 0; y < numbers.GetLength(1); y++)
+            {
+                for (int z = 0; z < numbers.GetLength(2); z++)
+                {
+                    numbers[x, y, z] = temp[count];
+                    count++;
                 }
             }
         }
