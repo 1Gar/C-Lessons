@@ -11,7 +11,7 @@ public class MyLibrary
     //2. Функция вывода натуральных чисел
     public static void FindNaturalInt(int number)
     {
-        int n = number;
+
         if (number == 0) return;
         {
             Console.Write(number + " ");
